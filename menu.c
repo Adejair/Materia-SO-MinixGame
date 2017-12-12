@@ -14,12 +14,17 @@ int main()
         printf("====================================\n");
         printf("Escolha o Jogo para ser executado:\n");
         printf("1) Jogo de Raciocionio Matematico\n");
+        printf("2) Jogo dos Acertos\n");
         scanf("%i", &opt);
 
         switch(opt) {
             case 1: {
                 system("./matematico");
                 break;
+            }
+
+            case 2: {
+                system("./acertos");
             }
         }
 
