@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main() {
+    system("clear");
     printf("Bem vindo ao Jogo de Raciocionio Logico Matematico !\n");
     printf("Criadores: Adejair Junior & Kaique\n");
 
