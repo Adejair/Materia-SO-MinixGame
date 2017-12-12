@@ -73,5 +73,8 @@ int main() {
 
     } while(result != -999);
 
+    system("clear");
+    system("./menu");
+
     return 0;
 }
