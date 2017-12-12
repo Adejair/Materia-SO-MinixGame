@@ -18,7 +18,6 @@ int main()
 
         switch(opt) {
             case 1: {
-                system("gcc matematico -o matematico.c");
                 system("./matematico");
                 break;
             }
