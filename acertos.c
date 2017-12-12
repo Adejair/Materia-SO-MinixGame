@@ -3,7 +3,7 @@
 
 int main()
 {
-
+    system("clear");
     int opt;
         printf("===================================\n");
         printf("Sistemas Operacionais - UNIRV\n");
