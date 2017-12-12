@@ -9,6 +9,10 @@ int main() {
     int maxValue = 0;
     double c;
 
+    int acertos = 0
+        , erros = 0;
+
+
     printf("Digite o maior numero que pode ocorrer na sequencia do jogo: ex(20): (1+18) ou (18 /6)\n");
     scanf("%i", &maxValue);
 
@@ -48,15 +52,23 @@ int main() {
 
 
         if(result == -999 && c != -999) {
-            printf("voce caiu fora do jogo !!");
+            printf("voce caiu fora do jogo !!\n");
+
+            if(acertos > erros) {
+                printf("Voce eh um bom jogador !!");
+            } else {
+                printf("Voce joga muito mal :( ");
+            }
             break;
         }
 
 
         if(result == c) {
          printf("Voce acertou o resultado!!\n ");
+         ++acertos;
         } else {
             printf("Voce errou o resultado :(\n");
+            ++erros;
         }
 
     } while(result != -999);
