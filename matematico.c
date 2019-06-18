@@ -4,7 +4,7 @@
 int main() {
     system("clear");
     printf("Bem vindo ao Jogo de Raciocionio Logico Matematico !\n");
-    printf("Criadores: Adejair Junior & Kaique\n");
+    printf("Criadores: Adejair Junior & Igor\n");
 
     int result = 0;
     int maxValue = 0;
