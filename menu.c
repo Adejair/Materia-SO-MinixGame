@@ -10,7 +10,7 @@ int main()
 
         printf("============= MENU ================\n");
         printf("Trabalho de Sistemas Operacionais \n");
-        printf("Alunos: Adejair Junior & Kaique \n");
+        printf("Alunos: Adejair Junior & Igor \n");
         printf("====================================\n");
         printf("Escolha o Jogo para ser executado:\n");
         printf("1) Jogo de Raciocionio Matematico\n");
