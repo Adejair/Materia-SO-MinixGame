@@ -8,7 +8,7 @@ int main()
         printf("===================================\n");
         printf("Sistemas Operacionais - UNIRV\n");
         printf("\tJogo dos acertos\n");
-        printf("Adejair Junior & Kaique\n ");
+        printf("Adejair Junior & Igor\n ");
         printf("====================================\n");
         printf("DIGITE -999 PARA SAIR DO JOGO\n");
         printf("ACERTE O NUMERO RANDOMICO GERADO NA TELA E VENCA O JOGO !!\n");
